@@ -57,7 +57,7 @@ html::-webkit-scrollbar-thumb {
 
 .container {
   padding: 100px 9%;
-  background: linear-gradient(45deg, deeppink, var(--blue));
+  background: linear-gradient(45deg, #97caef, #2980b9);
   display: flex;
 }
 
