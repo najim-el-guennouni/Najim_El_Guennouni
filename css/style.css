@@ -279,3 +279,35 @@ html::-webkit-scrollbar-thumb {
   span {
   width: 55%;
 }
+
+.container .information .experience {
+  margin: 20px 0;
+}
+
+.container .information .experience .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.container .information .experience .box-container .box {
+  padding: 20px;
+  border-radius: 5px;
+  flex: 1 1 350px;
+  background: var(--light-bg);
+}
+
+.container .information .experience .box span {
+  color: var(--blue);
+  font-size: 15px;
+}
+.container .information .experience .box h3 {
+  color: var(--black);
+  font-size: 17px;
+  padding: 5px 0;
+}
+.container .information .experience .box p {
+  color: var(--light-color);
+  line-height: 2;
+  font-size: 13px;
+}
