@@ -321,7 +321,8 @@ html::-webkit-scrollbar-thumb {
   font-size: 15px;
 }
 
-.container .information .experience .box-container .box h3 {
+.container .information .experience .box-container .box h3,
+#ageValue {
   color: var(--black);
   font-size: 17px;
   padding: 5px 0;
